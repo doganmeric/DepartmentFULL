@@ -82,6 +82,12 @@ public class Location {
 	public void setId(Integer id) {
 		this.id = id;
 	}
+
+	@Override
+	public String toString() {
+		return "Location [id=" + id + ", streetAddress=" + streetAddress + ", postalCode=" + postalCode + ", city="
+				+ city + ", stateProvince=" + stateProvince + ", countryId=" + countryId + "]";
+	}
 	
 
 	

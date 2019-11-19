@@ -143,6 +143,14 @@ public class Employee {
 		this.id = id;
 	}
 
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
+				+ ", phoneNumber=" + phoneNumber + ", hireDate=" + hireDate + ", jobId=" + jobId + ", salary=" + salary
+				+ ", commissionPact=" + commissionPact + ", managerId=" + managerId + ", department_id=" + department_id
+				+ "]";
+	}
+
 
 	
 
